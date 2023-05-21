@@ -1,32 +1,3 @@
-# import cv2
-
-# video_capture = cv2.VideoCapture(0)  # Use 0 for the default webcam
-
-# total_users = 0
-# previous_user_count = 0
-
-# while True:
-#     # Read the current frame from the video stream
-#     ret, frame = video_capture.read()
-
-#     # Perform object detection on the frame
-#     # Use the pre-trained model to detect faces or people in the frame
-#     # Update the user count based on the detected objects
-
-#     # Draw the user count on the frame
-#     cv2.putText(frame, "Users: " + str(total_users), (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
-
-#     # Display the frame with the user count
-#     cv2.imshow("Users Counter", frame)
-
-#     # Check for user interrupt to exit the loop
-#     if cv2.waitKey(1) & 0xFF == ord('q'):
-#         break
-
-# # Release the video capture object and close the windows
-# video_capture.release()
-# # cv2.destroyAllWindows()
-
 import cv2
 
 # https://github.com/opencv/opencv/blob/master/data/haarcascades
